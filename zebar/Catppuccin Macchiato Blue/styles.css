@@ -75,6 +75,26 @@ body,
   margin-right: 20px;
 }
 
+.cpu,
+.memory {
+  display: grid;
+  grid-template-columns: 1em 4ch;
+  column-gap: 4px;
+  flex-shrink: 0;
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+
+.cpu > i,
+.memory > i {
+  margin-right: 0;
+}
+
+.cpu > span,
+.memory > span {
+  text-align: right;
+}
+
 .workspaces {
   display: flex;
   align-items: center;
