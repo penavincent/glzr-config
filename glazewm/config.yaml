@@ -106,8 +106,7 @@ ctp-mocha-crust: &ctp-mocha-crust "#11111b"
 general:
   # Commands to run when the WM has started. This is useful for running a
   # script or launching another application.
-  # Example: The below command launches Zebar.
-  startup_commands: ["shell-exec zebar"]
+  startup_commands: ["shell-exec yasb"]
 
   # Commands to run just before the WM is shutdown.
   # Example: The below command kills Zebar.
@@ -154,7 +153,7 @@ gaps:
 
   # Gap between windows and the screen edge.
   outer_gap:
-    top: "60px"
+    top: "20px"
     right: "20px"
     bottom: "20px"
     left: "20px"
